@@ -8,6 +8,8 @@ on:
 
 # 自定义环境变量
 env:
+  GIT_USER: syy11cn
+  GIT_EMAIL: syy11cn@outlook.com
   THEME_REPO: zeqitech/blog
   THEME_BRANCH: main
   DEPLOY_REPO: zeqitech/blog
@@ -64,6 +66,8 @@ jobs:
           echo "$DEPLOY_KEY" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
           ssh-keyscan github.com >> ~/.ssh/known_hosts
+          git config --global user.name $GIT_USER
+          git config --global user.email $GIT_EMAIL
 
       # 生成并部署
       - name: Deploy
