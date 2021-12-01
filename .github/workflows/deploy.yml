@@ -29,13 +29,6 @@ jobs:
           ref: ${{ env.THEME_BRANCH }}
           path: themes/landscape
 
-      - name: Checkout deploy repo
-        uses: actions/checkout@v2
-        with:
-          repository: ${{ env.DEPLOY_REPO }}
-          ref: ${{ env.DEPLOY_BRANCH }}
-          path: .deploy_git
-
       # 这里用的是 Node.js 14.x
       - name: Set up Node.js
         uses: actions/setup-node@v1
