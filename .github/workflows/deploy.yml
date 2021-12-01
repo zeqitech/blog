@@ -10,8 +10,8 @@ on:
 env:
   GIT_USER: syy11cn
   GIT_EMAIL: syy11cn@outlook.com
-  THEME_REPO: zeqitech/blog
-  THEME_BRANCH: main
+  THEME_REPO: hexojs/hexo-theme-landscape
+  THEME_BRANCH: master
   DEPLOY_REPO: zeqitech/blog
   DEPLOY_BRANCH: gh-pages
 
