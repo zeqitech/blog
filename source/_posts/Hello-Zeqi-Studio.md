@@ -16,7 +16,7 @@ keywords:
 
 <!-- more -->
 
-<img src="/blog/assets/images/logo.png" style="width: 100px; object-fit: cover;" />
+<img src="https://shaun-logo.oss-cn-beijing.aliyuncs.com/zeqi_logo.png" style="width: 100px; object-fit: cover;" />
 
 ## 进度 & 计划
 
