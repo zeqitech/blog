@@ -1,10 +1,17 @@
 <footer id="footer">
-  <% if (theme.sidebar === 'bottom'){ %>
-    <%- partial('_partial/sidebar') %>
-  <% } %>
+  <% if (theme.sidebar === 'bottom'){ %> <%- partial('_partial/sidebar') %> <% }
+  %>
   <div class="outer">
     <div id="footer-info" class="inner">
-      &copy; <%= date(new Date(), 'YYYY') %> <%= config.author || config.title %><br>
+      <p>&copy; 2013-<%= date(new Date(), 'YYYY') %> Zeqi Studio</p>
+      <p>
+        访问量
+        <img
+          src="https://www.mfwztj.com/hit.php?id=zvuxkkn&nd=6&style=1"
+          border="0"
+          alt="网站计数器"
+        />
+      </p>
       <%= __('powered_by') %> <a href="http://hexo.io/" target="_blank">Hexo</a>
     </div>
   </div>
