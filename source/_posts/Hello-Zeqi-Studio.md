@@ -1,6 +1,7 @@
 ---
-title: 择栖工作室官方博客开始试运营！🎉
+title: 择栖工作室官网开始试运营！🎉
 date: 2021-12-01 18:44:23
+top: 10
 tags:
   - 工作室
   - 新闻
@@ -11,10 +12,28 @@ keywords:
   - 工作室
 ---
 
-择栖工作室，隶属于电子科技大学信息与软件工程学院创新工坊，成立于 2014 年，现有成员 59 人，已有 5 届毕业生。工作室开设前端、后端、机器学习三个主要方向，以赛促学，在多项国内国际比赛中斩获荣誉。
+择栖工作室官网开始试运营啦！！有任何关于网站的问题、意见、建议都可以在这里找到提交入口，欢迎各届择栖成员参与官网建设中来，关于官网的进度计划也会在这里发布~
 
 <!-- more -->
 
-## 名称由来
+<img src="/blog/assets/images/logo.png" style="width: 100px; object-fit: cover;" />
 
-“择栖”二字取自《左传》“贤臣择主而事，良禽择木而栖”，寓意着工作室将以优越的硬件环境、凭和谐的文化氛围引凤鸟栖居之上，让贤才得以因时应势、大展所长，开创新的辉煌。
+## 进度 & 计划
+
+- [x] 购买域名 [zeqi.tech](https://zeqi.tech)
+- [x] 搭建 [Landing Page](https://zeqi.tech)
+  - [x] CI/CD
+- [x] 搭建 [Blog](https://zeqi.tech/blog)
+  - [x] CI/CD
+- [ ] 博客更换主题
+- [ ] 官网 SEO
+
+## 反馈
+
+### 关于 Landing Page
+
+关于 `https://zeqi.tech/` 页面的任何问题可以[在此进行反馈](https://github.com/zeqitech/zeqitech.github.io/issues)。
+
+### 关于 Blog
+
+关于 `https://zeqi.tech/blog/*` 页面的任何问题可以[在此进行反馈](https://github.com/zeqitech/blog/issues)。
