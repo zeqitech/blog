@@ -10,8 +10,8 @@ on:
 env:
   GIT_USER: syy11cn
   GIT_EMAIL: syy11cn@outlook.com
-  THEME_REPO: hexojs/hexo-theme-landscape
-  THEME_BRANCH: master
+  THEME_REPO: syy11cn/hexo-theme-linear
+  THEME_BRANCH: main
   DEPLOY_REPO: zeqitech/blog
   DEPLOY_BRANCH: gh-pages
 
@@ -23,6 +23,13 @@ jobs:
       # 获取博客源码和主题
       - name: Checkout
         uses: actions/checkout@v2
+
+      - name: Checkout theme repo
+        uses: actions/checkout@v2
+        with:
+          repository: ${{ env.THEME_REPO }}
+          ref: ${{ env.THEME_BRANCH }}
+          path: themes/linear
 
       # 这里用的是 Node.js 14.x
       - name: Set up Node.js
@@ -61,6 +68,7 @@ jobs:
           ssh-keyscan github.com >> ~/.ssh/known_hosts
           git config --global user.name $GIT_USER
           git config --global user.email $GIT_EMAIL
+          cp _config.theme.yml themes/linear/_config.yml
 
       # 生成并部署
       - name: Deploy

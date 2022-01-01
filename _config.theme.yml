@@ -1,0 +1,55 @@
+# favicon
+favicon: /favicon.ico
+
+# canvas
+canvasbg:
+  enabled: false
+  color: 255,255,255
+  opacity: 1
+  count: 99
+
+# license of articles
+declaration: true
+
+# personal links
+linkiconbase: /images/links/
+links:
+  - name: github
+    link: https://github.com/zeqitech
+    icon: github.png
+  - name: email
+    link: 'mailto:contact@zeqi.tech'
+    icon: email.png
+  - name: rss
+    link: /atom.xml
+    icon: feed.png
+  - name: links
+    link: /links/
+    icon: link.png
+
+# pagination
+pagination:
+  prev_text: '<'
+  next_text: '>'
+
+# comment
+waline:
+  enabled: false
+  serverURL:
+  placeholder: 评论系统由安全的 Waline 支持，欢迎你的评论 ~
+  avatar:
+  emoji:
+    bilibili: true
+    qq: true
+    tieba: true
+    twitter: true
+    alus: true
+    weibo: true
+
+# footer
+icp: ''
+counter:
+  enabled: true
+
+# google site verification
+verimeta:

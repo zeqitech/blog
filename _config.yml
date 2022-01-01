@@ -7,7 +7,7 @@ title: 择栖工作室
 subtitle: 贤臣择主而事，良禽择木而栖
 description: 择栖工作室，隶属于电子科技大学信息与软件工程学院创新工坊，成立于 2014 年，现有成员 59 人，已有 5 届毕业生。工作室开设前端、后端、机器学习三个主要方向，以赛促学，在多项国内国际比赛中斩获荣誉。
 keywords: UESTC, 电子科技大学, Zeqi, 择栖, Studio, 工作室, zeqi.tech
-author: Zeqier
+# author: Zeqier
 language: zh-CN
 timezone: 'Asia/Shanghai'
 sitemap:
@@ -15,8 +15,8 @@ sitemap:
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://zeqi.tech/blog
-permalink: :year:month:day/:title/
+url: https://blog.zeqi.tech
+permalink: :year/:title/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -33,7 +33,7 @@ i18n_dir: :lang
 skip_render:
 
 # Writing
-new_post_name: :title.md # File name of new posts
+new_post_name: :year/:month/:title.md # File name of new posts
 default_layout: post
 titlecase: false # Transform title into titlecase
 external_link:
@@ -99,7 +99,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: linear
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
