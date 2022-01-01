@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://blog.zeqi.tech/links/index.html</loc>
+    
+    <lastmod>2022-01-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.zeqi.tech/2021/call-for-2021-conclusion/</loc>
+    
+    <lastmod>2022-01-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.zeqi.tech/2022/happy-2022-new-year/</loc>
+    
+    <lastmod>2022-01-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.zeqi.tech/2022/2021-final-conclusion-syy/</loc>
+    
+    <lastmod>2022-01-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.zeqi.tech/2021/zeqi-intro/</loc>
+    
+    <lastmod>2022-01-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.zeqi.tech/2021/hello-zeqi-studio/</loc>
+    
+    <lastmod>2022-01-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+
+  <url>
+    <loc>https://blog.zeqi.tech/</loc>
+    <lastmod>2022-01-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  
+  <url>
+    <loc>https://blog.zeqi.tech/tags/HTH/</loc>
+    <lastmod>2022-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.zeqi.tech/tags/%E6%96%B0%E9%97%BB/</loc>
+    <lastmod>2022-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+
+  
+</urlset>
