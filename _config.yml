@@ -6,7 +6,12 @@
 title: 择栖工作室
 subtitle: 贤臣择主而事，良禽择木而栖
 description: 择栖工作室，隶属于电子科技大学信息与软件工程学院创新工坊，成立于 2014 年，现有成员 59 人，已有 5 届毕业生。工作室开设前端、后端、机器学习三个主要方向，以赛促学，在多项国内国际比赛中斩获荣誉。
-keywords: UESTC, 电子科技大学, Zeqi, 择栖, Studio, 工作室, zeqi.tech
+keywords:
+  - UESTC
+  - 电子科技大学
+  - Zeqi
+  - 择栖
+  - zeqi.tech
 # author: Zeqier
 language: zh-CN
 timezone: 'Asia/Shanghai'
