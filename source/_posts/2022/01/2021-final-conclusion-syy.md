@@ -4,7 +4,7 @@ title: 在人群中，听见和看见自己 - 2021 年年终总结
 cover: https://shaun.oss-cn-beijing.aliyuncs.com/typora/origin_img_v2_711aeb12-38f8-4462-80c1-d5b139b8b7dg.jpg/watermark
 top: 1
 tags:
-  - 杂谈
+  - HTH
 keywords:
   - 年终总结
   - 2021
